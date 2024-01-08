@@ -66,11 +66,10 @@ nav a {
 /* header */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png') ;
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 800px 500px;
-
+    background-position: bottom right, top left;
+    
 
 }
 
@@ -84,12 +83,8 @@ nav a {
 .banner .profile-pic {
     width: 700px;
 
-
-
 }
-.profile{
-    padding right: 500ox;
-}
+
    
 
 
@@ -114,7 +109,7 @@ nav a {
 }
 
 .banner-content {
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 /* main section styles */
